@@ -5,6 +5,7 @@ export default function Page() {
     <>
       <Header text="Web" />
       <Button />
+      <p className="text-red-600">Test tailwind</p>
     </>
   );
 }
