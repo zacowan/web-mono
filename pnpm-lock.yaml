@@ -29,6 +29,12 @@ importers:
 
   apps/zacowan-site:
     dependencies:
+      '@zacowan/tailwind':
+        specifier: workspace:^
+        version: link:../../packages/tailwind
+      '@zacowan/ui-react':
+        specifier: workspace:*
+        version: link:../../packages/ui
       clsx:
         specifier: ^1.2.1
         version: 1.2.1
@@ -41,9 +47,6 @@ importers:
       react-dom:
         specifier: ^18.2.0
         version: 18.2.0(react@18.2.0)
-      ui:
-        specifier: workspace:*
-        version: link:../../packages/ui
     devDependencies:
       '@types/node':
         specifier: ^18.16.18
@@ -54,6 +57,9 @@ importers:
       '@types/react-dom':
         specifier: ^18.2.6
         version: 18.2.6
+      '@zacowan/tsconfig':
+        specifier: workspace:*
+        version: link:../../packages/tsconfig
       autoprefixer:
         specifier: ^10.4.14
         version: 10.4.14(postcss@8.4.24)
@@ -66,9 +72,6 @@ importers:
       tailwindcss:
         specifier: ^3.3.2
         version: 3.3.2
-      tsconfig:
-        specifier: workspace:*
-        version: link:../../packages/tsconfig
 
   packages/eslint-config-zacowan:
     dependencies:
@@ -85,6 +88,8 @@ importers:
         specifier: 7.32.2
         version: 7.32.2(eslint@8.43.0)
 
+  packages/tailwind: {}
+
   packages/tsconfig: {}
 
   packages/ui:
@@ -95,15 +100,15 @@ importers:
       '@types/react-dom':
         specifier: ^18.2.6
         version: 18.2.6
+      '@zacowan/tsconfig':
+        specifier: workspace:*
+        version: link:../tsconfig
       eslint-config-zacowan:
         specifier: workspace:*
         version: link:../eslint-config-zacowan
       react:
         specifier: ^18.2.0
         version: 18.2.0
-      tsconfig:
-        specifier: workspace:*
-        version: link:../tsconfig
 
 packages:
 

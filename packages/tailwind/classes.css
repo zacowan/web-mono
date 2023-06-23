@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  a,
+  a[href] {
+    @apply text-blue-500 uppercase underline;
+  }
+}
+
+@layer components {
+  .link-cta,
+  .link-cta[href] {
+    @apply bg-black text-white px-6 py-2;
+  }
+}

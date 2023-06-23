@@ -1,4 +1,4 @@
-import { Button, Header } from "ui";
+import { Button, Header } from "@zacowan/ui-react";
 import { Rubik } from "next/font/google";
 import { clsx } from "clsx";
 
@@ -18,6 +18,14 @@ export default function Page() {
         </p>
         <div>
           <h2 className="uppercase">Skills</h2>
+        </div>
+        <div>
+          <a href="#" className="link">
+            Learn More
+          </a>
+          <a href="#" className="link-cta">
+            Connect
+          </a>
         </div>
       </div>
     </div>
