@@ -3,7 +3,7 @@ const RSS_2_JSON_URL = 'https://api.rss2json.com/v1/api.json';
 
 const LIMIT = 3;
 
-interface RSSFeedItem {
+export interface RSSFeedItem {
 	title: string;
 	pubDate: string;
 	link: string;
