@@ -1,0 +1,14 @@
+{
+	"name": "@zacowan/prettier-config",
+	"version": "0.0.1",
+	"main": "index.json",
+	"private": true,
+	"license": "MIT",
+	"scripts": {
+		"lint": "prettier --check .",
+		"format": "prettier --write ."
+	},
+	"publishConfig": {
+		"access": "public"
+	}
+}

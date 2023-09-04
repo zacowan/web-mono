@@ -1,17 +1,21 @@
 {
-  "private": true,
-  "scripts": {
-    "build": "turbo run build",
-    "dev": "turbo run dev",
-    "lint": "turbo run lint"
-  },
-  "devDependencies": {
-    "eslint": "^8.48.0",
-    "eslint-config-zacowan": "workspace:*",
-    "prettier": "^3.0.3",
-    "turbo": "^1.10.13",
-    "typescript": "^5.2.2"
-  },
-  "packageManager": "pnpm@8.6.2",
-  "name": "web-mono"
+	"private": true,
+	"scripts": {
+		"build": "turbo run build",
+		"dev": "turbo run dev",
+		"lint": "turbo run lint",
+		"format": "turbo run format",
+		"test": "turbo run test"
+	},
+	"devDependencies": {
+		"@zacowan/prettier-config": "workspace:^",
+		"eslint": "^8.48.0",
+		"eslint-config-zacowan": "workspace:*",
+		"prettier": "^3.0.3",
+		"turbo": "^1.10.13",
+		"typescript": "^5.2.2"
+	},
+	"packageManager": "pnpm@8.6.2",
+	"name": "web-mono",
+	"type": "module"
 }
