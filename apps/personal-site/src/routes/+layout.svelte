@@ -1,6 +1,5 @@
 <script>
 	import '../app.css';
-	import { MEDIUM_HREF } from '$lib/links';
 </script>
 
 <nav class="navbar bg-base-100">
@@ -9,8 +8,8 @@
 	</div>
 	<div class="flex-none md:p-4">
 		<ul class="menu menu-horizontal uppercase space-x-2">
-			<li><a href={MEDIUM_HREF}>Words</a></li>
-			<li><a href={MEDIUM_HREF}>Projects</a></li>
+			<li><a href="/words">Words</a></li>
+			<!-- <li><a href={MEDIUM_HREF}>Projects</a></li> -->
 		</ul>
 	</div>
 </nav>
