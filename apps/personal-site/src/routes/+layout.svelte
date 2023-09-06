@@ -8,8 +8,9 @@
 		<a class="btn btn-ghost lowercase text-xl" href="/">zacowan</a>
 	</div>
 	<div class="flex-none md:p-4">
-		<ul class="menu menu-horizontal uppercase">
-			<li><a href={MEDIUM_HREF}>Posts</a></li>
+		<ul class="menu menu-horizontal uppercase space-x-2">
+			<li><a href={MEDIUM_HREF}>Words</a></li>
+			<li><a href={MEDIUM_HREF}>Projects</a></li>
 		</ul>
 	</div>
 </nav>

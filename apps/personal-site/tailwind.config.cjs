@@ -8,6 +8,11 @@ module.exports = {
 		extend: {
 			fontFamily: {
 				sans: ['JetBrains Mono', ...defaultTheme.fontFamily.sans]
+			},
+			height: {
+				'icon-sm': '1.5rem',
+				'icon-md': '2.0rem',
+				'icon-lg': '2.5rem'
 			}
 		}
 	},
