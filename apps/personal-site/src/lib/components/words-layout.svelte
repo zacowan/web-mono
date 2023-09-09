@@ -1,5 +1,7 @@
-<script lang="ts">
-	export let title: string;
+<!-- Script not written in TS due to issue with mdsvex. -->
+<script>
+	/** @type {string} */
+	export let title;
 </script>
 
 <article class="prose mx-auto">
