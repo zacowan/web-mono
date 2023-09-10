@@ -1,7 +1,6 @@
 ---
 title: Using machine learning-based eye-tracking to control computers
 shortTitle: Using ML-based eye-tracking to control computers
-description: How we used a webcam and machine learning to detect our pupils are use them to control a computer's mouse cursor.
 date: 2023-02-22
 tags:
   - Machine Learning
