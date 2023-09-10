@@ -18,7 +18,6 @@ const globs: Record<string, GlobValue> = await import.meta.glob('/src/routes/wor
 });
 
 const posts = Object.entries(globs).map(([postPath, { metadata }]) => {
-	console.log(metadata);
 	const slug = getPostSlugFromPath(postPath);
 	const href = `/words/${slug}`;
 	return {
