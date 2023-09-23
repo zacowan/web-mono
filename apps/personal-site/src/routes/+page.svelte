@@ -2,6 +2,10 @@
 	import { LINKEDIN_HREF, TWITTER_HREF, WORKPlACE_HREF } from '$lib/links';
 </script>
 
+<svelte:head>
+	<title>zacowan | Home</title>
+</svelte:head>
+
 <div class="prose mx-auto">
 	<h1>Zachary Cowan</h1>
 	<p>

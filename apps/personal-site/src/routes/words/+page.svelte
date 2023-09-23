@@ -5,6 +5,11 @@
 	export let data: PageData;
 </script>
 
+<svelte:head>
+	<title>zacowan | Words</title>
+	<meta name="description" content="See the latest blog posts I've written." />
+</svelte:head>
+
 <div class="flex flex-col mx-auto max-w-prose">
 	<div class="prose">
 		<h1>Words</h1>

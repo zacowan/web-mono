@@ -3,6 +3,14 @@
 	import { projects } from '$lib/projects';
 </script>
 
+<svelte:head>
+	<title>zacowan | Projects</title>
+	<meta
+		name="description"
+		content="See the projects that I've been working on lately (and ever)."
+	/>
+</svelte:head>
+
 <div class="flex flex-col mx-auto max-w-prose">
 	<div class="prose">
 		<h1>Projects</h1>

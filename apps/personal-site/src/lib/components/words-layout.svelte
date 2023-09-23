@@ -10,6 +10,10 @@
 	export let tags;
 </script>
 
+<svelte:head>
+	<title>zacowan | {title}</title>
+</svelte:head>
+
 <article class="prose mx-auto">
 	<DateWithTags {date} {tags} class="mb-4" />
 	<h1>{title}</h1>
