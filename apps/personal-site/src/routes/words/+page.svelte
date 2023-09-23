@@ -7,7 +7,6 @@
 
 <svelte:head>
 	<title>zacowan | Words</title>
-	<meta name="description" content="See the latest blog posts I've written." />
 </svelte:head>
 
 <div class="flex flex-col mx-auto max-w-prose">
