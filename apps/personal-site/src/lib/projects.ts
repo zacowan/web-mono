@@ -35,7 +35,7 @@ const unsortedProjects: Project[] = [
 /**
  * Sorts the projects in reverse-chronological order
  */
-const sortedProjects = unsortedProjects.toSorted((a, b) => {
+const sortedProjects = unsortedProjects.sort((a, b) => {
 	const [dateA, dateB] = [new Date(a.date), new Date(b.date)];
 	if (dateA == dateB) {
 		return 0;

@@ -10,15 +10,18 @@
 	const dot = '&#x2022;';
 </script>
 
-<div class={clsx('uppercase text-xs gap-1', className)}>
-	<span>{formattedDate}</span>
-	<span>{@html dot}</span>
-	{#each tags as tag, index}
-		<span>
-			<span>{tag}</span>
-			{#if index < tags.length - 1}
-				<span>{@html dot}</span>
-			{/if}
-		</span>
-	{/each}
+<div class={clsx('uppercase text-xs', className)}>
+	<div class="pb-1">
+		{formattedDate}
+	</div>
+	<ul class="flex gap-y-2">
+		{#each tags as tag, index}
+			<li>
+				<span>{tag}</span>
+				{#if index < tags.length - 1}
+					<span class="pr-2">{@html dot}</span>
+				{/if}
+			</li>
+		{/each}
+	</ul>
 </div>

@@ -20,16 +20,14 @@
 </nav>
 
 <main class="container mx-auto p-4 md:p-10 min-h-[75vh]">
-	{#if paths.length > 0}
-		<div class="text-sm breadcrumbs mb-12">
-			<ul>
-				<li><a href="/">Home</a></li>
-				{#each paths as path}
-					<li><a class="capitalize" href={`/${path}`}>{path}</a></li>
-				{/each}
-			</ul>
-		</div>
-	{/if}
+	<div class="text-sm breadcrumbs mb-12">
+		<ul>
+			<li><a href="/">Home</a></li>
+			{#each paths as path}
+				<li><a class="capitalize" href={`/${path}`}>{path}</a></li>
+			{/each}
+		</ul>
+	</div>
 	<slot />
 </main>
 
@@ -37,6 +35,7 @@
 	<nav class="grid grid-flow-col gap-4">
 		<a class="link link-hover" href="/">Home</a>
 		<a class="link link-hover" href="/words">Words</a>
+		<a class="link link-hover" href="/projects">Projects</a>
 	</nav>
 	<nav>
 		<div class="grid grid-flow-col gap-4">
