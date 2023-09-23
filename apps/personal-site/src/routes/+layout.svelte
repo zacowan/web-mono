@@ -14,6 +14,7 @@
 	<div class="flex-none md:p-4">
 		<ul class="menu menu-horizontal uppercase space-x-2">
 			<li><a href="/words">Words</a></li>
+			<li><a href="/projects">Projects</a></li>
 		</ul>
 	</div>
 </nav>
