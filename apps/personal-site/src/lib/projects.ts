@@ -29,6 +29,12 @@ const unsortedProjects: Project[] = [
 			{ label: 'System GitHub', href: 'https://github.com/swamphacks/swamphacks-internal' }
 		],
 		date: '2020-02-01'
+	},
+	{
+		title: '"totle" CLI tool for notetaking',
+		tags: ['golang', 'cli'],
+		links: [{ label: 'GitHub', href: 'https://github.com/zacowan/totle' }],
+		date: '2023-10-07'
 	}
 ];
 
