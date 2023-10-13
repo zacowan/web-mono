@@ -14,8 +14,10 @@
 	<title>zacowan | {title}</title>
 </svelte:head>
 
-<article class="prose mx-auto">
+<article class="mx-auto max-w-prose">
 	<DateWithTags {date} {tags} class="mb-4" />
-	<h1>{title}</h1>
-	<slot />
+	<div class="prose mx-auto">
+		<h1>{title}</h1>
+		<slot />
+	</div>
 </article>
