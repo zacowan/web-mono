@@ -10,7 +10,7 @@
 	const dot = '&#x2022;';
 </script>
 
-<div class={clsx('uppercase text-xs', className)}>
+<div class={clsx('font-mono uppercase text-xs', className)}>
 	<div class="pb-1">
 		{formattedDate}
 	</div>
@@ -19,6 +19,7 @@
 			<li>
 				<span>{tag}</span>
 				{#if index < tags.length - 1}
+					<!-- eslint-disable-next-line svelte/no-at-html-tags -->
 					<span class="pr-2">{@html dot}</span>
 				{/if}
 			</li>

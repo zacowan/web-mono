@@ -22,7 +22,7 @@ const unsortedProjects: Project[] = [
 		date: '2019-01-15'
 	},
 	{
-		title: '"Swamp Hacks" hackathon site and systems',
+		title: 'SwampHacks hackathon site and systems',
 		tags: ['javascript', 'google cloud', 'firebase', 'nfc'],
 		links: [
 			{ label: 'Site GitHub', href: 'https://github.com/swamphacks/2020-site' },

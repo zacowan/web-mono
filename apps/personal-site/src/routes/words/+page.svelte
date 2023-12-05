@@ -6,12 +6,12 @@
 </script>
 
 <svelte:head>
-	<title>zacowan | Words</title>
+	<title>Blog | zacowan</title>
 </svelte:head>
 
 <div class="flex flex-col mx-auto max-w-prose">
 	<div class="prose">
-		<h1>Words</h1>
+		<h1>Blog</h1>
 	</div>
 	<ul class="mt-16">
 		{#each data.posts as post}
