@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { LINKEDIN_HREF, TWITTER_HREF } from '$lib/links';
+	import { LINKEDIN_HREF, THREADS_HREF } from '$lib/links';
 </script>
 
 <svelte:head>
@@ -24,7 +24,7 @@
 		In my free time, I enjoy listening to podcasts, watching sci-fi/fantasy media, and trying out
 		new video games. Feel free to connect with me on <a href={LINKEDIN_HREF}>LinkedIn</a>
 		or
-		<a href={TWITTER_HREF}>Twitter</a>
+		<a href={THREADS_HREF}>Threads</a>
 		if you'd like to chat.
 	</p>
 	<p>In the meantime, why don't you stay awhile?</p>

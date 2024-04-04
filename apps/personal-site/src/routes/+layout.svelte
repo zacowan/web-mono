@@ -1,7 +1,7 @@
 <script>
 	import '../app.css';
-	import { LINKEDIN_HREF, TWITTER_HREF, GITHUB_HREF } from '$lib/links';
-	import { IconGitHub, IconLinkedIn, IconTwitter } from '$lib/icons';
+	import { LINKEDIN_HREF, GITHUB_HREF, THREADS_HREF } from '$lib/links';
+	import { IconGitHub, IconLinkedIn, IconThreads } from '$lib/icons';
 </script>
 
 <!-- TODO: is the accessible? -->
@@ -44,7 +44,7 @@
 	</div>
 	<div class="navbar-end">
 		<div class="flex-none grid grid-flow-col gap-4 pr-4">
-			<a class="link fill-base-content" href={TWITTER_HREF}><IconTwitter /></a>
+			<a class="link fill-base-content" href={THREADS_HREF}><IconThreads /></a>
 			<a class="link fill-base-content" href={LINKEDIN_HREF}><IconLinkedIn /></a>
 			<a class="link fill-base-content" href={GITHUB_HREF}><IconGitHub /></a>
 		</div>
@@ -63,7 +63,7 @@
 	</nav>
 	<nav>
 		<div class="grid grid-flow-col gap-4">
-			<a class="link fill-base-content" href={TWITTER_HREF}><IconTwitter /></a>
+			<a class="link fill-base-content" href={THREADS_HREF}><IconThreads /></a>
 			<a class="link fill-base-content" href={LINKEDIN_HREF}><IconLinkedIn /></a>
 			<a class="link fill-base-content" href={GITHUB_HREF}><IconGitHub /></a>
 		</div>
